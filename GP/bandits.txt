@@ -1,0 +1,12 @@
+
+- Contextual Bandit
+
+-- arms are defined in a feature space, where arms that are close to each other have
+   similar expected rewards. 
+
+-- GP-UCB - Upper confidence bound. 
+   'Matern' Kernel
+   Thomson sampling
+
+-- 'Adversarial bandits'. 
+'Wang and De Freitas'. 

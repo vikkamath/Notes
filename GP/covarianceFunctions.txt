@@ -1,0 +1,27 @@
+
+- A covariance function
+-- Is a kernel
+-- The gram matrix will be a covariance matrix
+-- A kernel may not be a covariance function if it isn't PSD
+
+- Squared exponential CF
+-- infinitely differentiable -> very smooth. But 'real' processes may not have this property
+-- can also be obtained by a RBF feature space
+
+- Anisotropic stationary CF's can be created with the distance function
+  r^2 = (x-x')^T M (x-x')
+  --- where M is some PSD matrix
+
+- Neural Networks for Gaussian Processes
+-- TODO: Refer Slides/Book
+-- Question: Why does the NN CF have jumps and non-smooth sections (In the gene experssion graph)
+-- Tanh non-linearity doesn't produce valid NN CF's. 
+
+REFERENCE: Statstical Methods for ML and Data Mining - Radford neal UToronto '06
+
+- Kernels for non-vectorial inputs
+-- String Kernels
+-- Graph Kernels
+-- Tree Kernels
+
+
